@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Demo005 {
 	public static void main(String[] args) throws Exception {
+		System.out.println(Demo005.class.getSimpleName());
 		Class<Student> cls = Student.class;
 		Student stu = cls.newInstance();
 
@@ -31,7 +32,7 @@ public class Demo005 {
 					//							+ "(" + c.getSimpleName() + " " + "arg" + cnt);
 				});
 			} catch (Exception e) {
-				// TODO 自動生成された catch ブロック
+				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�繧ｯ
 				e.printStackTrace();
 			}
 		});
@@ -50,7 +51,7 @@ class Student {
 	}
 
 	/**
-	 * @param name セットする name
+	 * @param name 繧ｻ繝�繝医☆繧� name
 	 */
 	public void setName(String name, String name1) {
 		this.name = name;
@@ -64,7 +65,7 @@ class Student {
 	}
 
 	/**
-	 * @param age セットする age
+	 * @param age 繧ｻ繝�繝医☆繧� age
 	 */
 	public void setAge(Integer age) {
 		this.age = age;
@@ -73,7 +74,7 @@ class Student {
 	private Integer age;
 
 	public Student() {
-		// TODO 自動生成されたコンストラクター・スタブ
+		// TODO 閾ｪ蜍慕函謌舌＆繧後◆繧ｳ繝ｳ繧ｹ繝医Λ繧ｯ繧ｿ繝ｼ繝ｻ繧ｹ繧ｿ繝�
 	}
 
 	private String getInfo() {

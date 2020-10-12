@@ -10,6 +10,7 @@ public class Demo002 {
 
 	public static void main(String[] args) throws Exception {
 		new Demo002().read("E:\\test.txt");
+		System.out.println("hot_fix branch ....");
 	}
 
 	public void read(String path) throws Exception {
